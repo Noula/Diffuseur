@@ -1,0 +1,8 @@
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.Properties.Resources.resources
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.csproj.GenerateResource.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.csproj.CoreCompileInputs.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\bin\Debug\Abonnement.exe.config
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\bin\Debug\Abonnement.exe
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\bin\Debug\Abonnement.pdb
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.exe
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.pdb
