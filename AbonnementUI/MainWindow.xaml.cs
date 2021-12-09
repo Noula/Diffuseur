@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Abonnement.Models
+namespace AbonnementUI
 {
     /// <summary>
-    /// Logique d'interaction pour Login.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class Login : UserControl
+    public partial class MainWindow : Window
     {
-        public Login()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

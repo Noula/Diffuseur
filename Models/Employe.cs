@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abonnement.Entite
+namespace Abonnement.Models
 {
    public class Employe: Personne
     {
