@@ -58,12 +58,22 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\Categorie.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Employe.cs" />
     <Compile Include="Models\Film.cs" />
     <Compile Include="Models\Login.xaml.cs" />
     <Compile Include="Models\Personne.cs" />
+=======
+    <Compile Include="Entite\Acteur.cs" />
+    <Compile Include="Entite\CarteCredit.cs" />
+    <Compile Include="Entite\Categorie.cs" />
+    <Compile Include="Entite\Client.cs" />
+    <Compile Include="Entite\Employe.cs" />
+    <Compile Include="Entite\Film.cs" />
+    <Compile Include="Entite\Personne.cs" />
+>>>>>>> d5e188ee8db2158ec99c281af73dfb77c71ec12d
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

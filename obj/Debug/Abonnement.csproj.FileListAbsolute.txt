@@ -6,6 +6,7 @@ C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\bi
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\bin\Debug\Abonnement.pdb
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.exe
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.pdb
+<<<<<<< HEAD
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.csproj.AssemblyReference.cache
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Entite\Login.g.cs
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Entite\Principale.g.cs
@@ -15,3 +16,5 @@ C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\ob
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Entite\Login.baml
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Entite\Principale.baml
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\obj\Debug\Abonnement.g.resources
+=======
+>>>>>>> d5e188ee8db2158ec99c281af73dfb77c71ec12d
