@@ -1,9 +1,0 @@
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.deps.json
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.dll
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.pdb
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.csprojAssemblyReference.cache
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.AssemblyInfoInputs.cache
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.AssemblyInfo.cs
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.csproj.CoreCompileInputs.cache
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.dll
-C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.pdb

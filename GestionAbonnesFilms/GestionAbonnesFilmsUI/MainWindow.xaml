@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:GestionAbonnesFilmsUI" 
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="380"
+        Title="Connexion" Height="450" Width="380"
         AllowsTransparency="False" Background="Transparent"
-        WindowStyle="None" ResizeMode="NoResize">
+        WindowStyle="ToolWindow" ResizeMode="NoResize"
+         MouseDown="MainWindow_OnMouseDown">
+    
     <Grid>
         <Grid>
             
@@ -26,10 +28,10 @@
                     </LinearGradientBrush>
                 </Border.Background>
             </Border>
-
+<!-- Entete de la Fenetre connexion-->
             <StackPanel VerticalAlignment="Center">
                 <Image Source="Images/Login.png" Width="80" Opacity="0.3"/>
-                <TextBlock Text="Se Connecter"
+                <TextBlock Text="CONNEXION "
                                FontWeight="Light"
                                FontFamily="helvetica"
                                FontSize="22"
@@ -37,6 +39,7 @@
                                HorizontalAlignment="Center"/>
             </StackPanel>
 
+            <!-- Champ Code Utilisateur -->
             <StackPanel Grid.Row="1" >
                 <StackPanel Orientation="Horizontal">
                     <TextBox FontFamily="Helvetica"
@@ -63,7 +66,7 @@
                         Opacity="0.5"/>
 
 
-
+                <!-- Champ Code Mot de passe -->
                 <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
                     <PasswordBox FontFamily="Helvetica"
                              FontWeight="Light"
@@ -88,10 +91,10 @@
                         Background="White"
                         Opacity="0.5"/>
 
-
+                <!-- Les boutons -->
                 <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                    <Button Width="100" Height="40" Content="LOGIN" Margin="60,0,60,0"/>
-                    <Button Width="100" Height="40" Content="REGISTER"/>
+                    <Button Width="100" Height="40" Content="Se connecter" Margin="60,0,60,0"/>
+                    <Button Width="100" Height="40" Content="S' Enregistrer"/>
                 </StackPanel>
 
 
