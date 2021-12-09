@@ -31,7 +31,7 @@
 <!-- Entete de la Fenetre connexion-->
             <StackPanel VerticalAlignment="Center">
                 <Image Source="Images/Login.png" Width="80" Opacity="0.3"/>
-                <TextBlock Text="CONNEXION "
+                <TextBlock  Text="CONNEXION "
                                FontWeight="Light"
                                FontFamily="helvetica"
                                FontSize="22"
@@ -42,7 +42,7 @@
             <!-- Champ Code Utilisateur -->
             <StackPanel Grid.Row="1" >
                 <StackPanel Orientation="Horizontal">
-                    <TextBox FontFamily="Helvetica"
+                    <TextBox x:Name="txtCodeUtilisateur" FontFamily="Helvetica"
                                  FontWeight="Light"
                                  Text="Code Utilisateur"
                                  FontSize="20"
@@ -68,7 +68,7 @@
 
                 <!-- Champ Code Mot de passe -->
                 <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
-                    <PasswordBox FontFamily="Helvetica"
+                    <PasswordBox x:Name="txtMotDePasse" FontFamily="Helvetica"
                              FontWeight="Light"
                              Password="MotdePasse"
                              FontSize="20"
@@ -81,7 +81,7 @@
                              Opacity="0.5"
                              Height="25"
                              Margin="63,0,0,0"/>
-                    <iconPacks:PackIconMaterial Kind="Key" 
+                    <iconPacks:PackIconMaterial Kind="Lock" 
                                                 VerticalAlignment="Center" 
                                                 HorizontalAlignment="Center" 
                                                 Foreground="White"/>
