@@ -1,0 +1,5 @@
+C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnessFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnessFilmsUI.csprojAssemblyReference.cache
+C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnessFilmsLibrary\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnessFilmsLibrary\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnessFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnessFilmsUI_MarkupCompile.cache
+C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnessFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnessFilmsUI_MarkupCompile.lref
