@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FVNbmQaG1JZ3lWAv0F5ulw/CNQ6oJpXKv2N46Bi7ZdPfRmZwdkz/IwlWZUG4b8fLU4xxLLkN7FJyGSUO46DArQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MarcPipaDjole\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
