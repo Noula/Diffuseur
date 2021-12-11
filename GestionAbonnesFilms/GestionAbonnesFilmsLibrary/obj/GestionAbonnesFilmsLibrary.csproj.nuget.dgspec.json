@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj": {}
+    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj": {
+    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj",
         "projectName": "GestionAbonnesFilmsLibrary",
-        "projectPath": "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj",
-        "packagesPath": "C:\\Users\\MarcPipaDjole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\obj\\",
+        "projectPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj",
+        "packagesPath": "C:\\Users\\kouod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\MarcPipaDjole\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kouod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -57,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

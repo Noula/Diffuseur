@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FVNbmQaG1JZ3lWAv0F5ulw/CNQ6oJpXKv2N46Bi7ZdPfRmZwdkz/IwlWZUG4b8fLU4xxLLkN7FJyGSUO46DArQ==",
+  "dgSpecHash": "E01VKH0jqsbJOt6lq6R7AzD9MXQzdYA4mnwNeZu7ml92EJlIAVINeteKHLaPQyMgv/bIFei9rv9e3oE9S9HpkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MarcPipaDjole\\source\\repos\\Noula\\Diffuseur\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
+  "projectFilePath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MarcPipaDjole\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+    "C:\\Users\\kouod\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -32,5 +32,17 @@ namespace GestionAbonnesFilmsUI
                 DragMove();
             }
         }
+
+        private void button_Incrire(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Connecter(object sender, RoutedEventArgs e)
+        {
+            Principal princ = new Principal();
+            princ.Activate();
+            princ.Show();
+        }
     }
 }

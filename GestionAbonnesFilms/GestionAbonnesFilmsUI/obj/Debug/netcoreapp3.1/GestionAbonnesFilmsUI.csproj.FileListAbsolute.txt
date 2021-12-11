@@ -22,3 +22,29 @@ C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionA
 C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.pdb
 C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.genruntimeconfig.cache
 C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.csprojAssemblyReference.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.exe
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.deps.json
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.runtimeconfig.json
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.runtimeconfig.dev.json
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.dll
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.pdb
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Core.dll
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Material.dll
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\BoutonModerneTheme.baml
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI_MarkupCompile.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI_MarkupCompile.lref
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.g.resources
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.AssemblyInfoInputs.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.AssemblyInfo.cs
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.csproj.CoreCompileInputs.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.csproj.CopyComplete
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.dll
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.pdb
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsUI.genruntimeconfig.cache
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\Principal.g.cs
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\Principal.baml

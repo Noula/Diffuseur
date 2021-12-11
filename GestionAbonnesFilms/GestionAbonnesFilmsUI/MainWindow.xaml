@@ -93,8 +93,8 @@
 
                 <!-- Les boutons -->
                 <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                    <Button Width="100" Height="40" Content="Se connecter" Margin="60,0,60,0"/>
-                    <Button Width="100" Height="40" Content="S' Enregistrer"/>
+                    <Button x:Name="connecter" Content="Se connecter" Click="button_Connecter" Width="100" Height="40" Margin="60,0,60,0"/>
+                    <Button x:Name="Inscrire" Content="S'Enregistrer" Click="button_Incrire" Width="100" Height="40"/>
                 </StackPanel>
 
 

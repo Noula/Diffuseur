@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="imageMen - Copie.jpg" />
+    <None Remove="imageMen.png" />
+    <None Remove="images.png" />
     <None Remove="Images\Login.png" />
+    <None Remove="Login.png" />
+    <None Remove="movieImage.png" />
+    <None Remove="spoolWire.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,9 +21,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="imageMen - Copie.jpg" />
+    <Resource Include="imageMen.png" />
+    <Resource Include="images.png" />
     <Resource Include="Images\Login.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Login.png" />
+    <Resource Include="movieImage.png" />
+    <Resource Include="spoolWire.png" />
   </ItemGroup>
 
 </Project>
