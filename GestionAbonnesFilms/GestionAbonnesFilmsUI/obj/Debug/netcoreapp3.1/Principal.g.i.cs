@@ -149,7 +149,7 @@ namespace GestionAbonnesFilmsUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestionAbonnesFilmsUI;component/principal.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestionAbonnesFilmsUI;V1.0.0.0;component/principal.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Principal.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
