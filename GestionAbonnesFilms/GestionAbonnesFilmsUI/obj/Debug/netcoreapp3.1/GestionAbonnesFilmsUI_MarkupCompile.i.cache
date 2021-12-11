@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\App.xaml
-6-142609501
+6-811963290
 
-11983758518
+11795899309
 218-1731397431
-BoutonModerneTheme.xaml;CreationClient.xaml;MainWindow.xaml;Principal.xaml;Vues\CreationClient.xaml;Vues\FenetrePrincipale.xaml;
+BoutonModerneTheme.xaml;MainWindow.xaml;Principal.xaml;Vues\CreationClient.xaml;Vues\FenetrePrincipale.xaml;Vues\ModificationClient.xaml;
 
 False
 
