@@ -12,6 +12,9 @@
     <Compile Update="Principal.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Vues\FenetrePrincipale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="BoutonModerneTheme.xaml">
@@ -21,6 +24,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Principal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vues\FenetrePrincipale.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

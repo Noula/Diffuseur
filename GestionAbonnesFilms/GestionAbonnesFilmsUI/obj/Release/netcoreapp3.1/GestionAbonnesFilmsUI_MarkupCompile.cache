@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\marcpipadjole\source\repos\noula\diffuseur\gestionabonnesfilms\GestionAbonnesFilmsUI\obj\Release\netcoreapp3.1\
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Release\netcoreapp3.1\
 GestionAbonnesFilmsUI
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
-c:\users\marcpipadjole\source\repos\noula\diffuseur\gestionabonnesfilms\GestionAbonnesFilmsUI\App.xaml
-21877669791
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\App.xaml
+5-694824765
 
-3-1233169557
-194437900679
-BoutonModerneTheme.xaml;MainWindow.xaml;
+8-148872435
+218-1731397431
+BoutonModerneTheme.xaml;CreationClient.xaml;MainWindow.xaml;Principal.xaml;Vues\FenetrePrincipale.xaml;
 
 True
 
