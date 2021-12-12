@@ -1082,6 +1082,16 @@
             "rid": "win"
           }
         }
+      },
+      "GestionAbonnesFilmsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GestionAbonnesFilmsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionAbonnesFilmsLibrary.dll": {}
+        }
       }
     }
   },
@@ -3919,11 +3929,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "GestionAbonnesFilmsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GestionAbonnesFilmsLibrary/GestionAbonnesFilmsLibrary.csproj",
+      "msbuildProject": "../GestionAbonnesFilmsLibrary/GestionAbonnesFilmsLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Caliburn.Micro >= 4.0.173",
+      "GestionAbonnesFilmsLibrary >= 1.0.0",
       "MahApps.Metro.IconPacks.Material >= 4.11.0"
     ]
   },
@@ -3961,7 +3977,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj": {
+              "projectPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsLibrary\\GestionAbonnesFilmsLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -19,3 +19,4 @@ C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionA
 C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.dll
 C:\Users\MarcPipaDjole\source\repos\Noula\Diffuseur\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.pdb
 >>>>>>> f7e99e83276c7b8fc03d8e8b9ca6ef35ee8deb59
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.csproj.AssemblyReference.cache
