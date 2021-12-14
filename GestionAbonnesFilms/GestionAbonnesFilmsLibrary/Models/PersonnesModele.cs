@@ -1,6 +1,7 @@
 ﻿using Chanel_MovieGestionAbonnesFilmsLibrary.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace GestionAbonnesFilmsLibrary.Models
 {
@@ -14,8 +15,8 @@ namespace GestionAbonnesFilmsLibrary.Models
         public static List<PersonnesModele> listPersonnes = new List<PersonnesModele>();
 
         // Chemins des fichiers
-        public static string fichierPersonne = "..//..//Model//Personne.txt";
-        public static string fichierInscrire = "..//..//Model//Inscrire.txt";
+        public static string fichierPersonne = @"../Fichiers/Personne.txt";
+        public static string fichierInscrire = Path.GetFullPath("GestionAbonnesFilmsLibrary/FichiersInscrire.txt");
 
         public PersonnesModele()
         {

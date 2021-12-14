@@ -9,7 +9,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Principal.xaml.cs">
+    <Compile Update="Vues\AjoutCarteCredit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vues\CreationClient.xaml.cs">
@@ -29,7 +29,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Principal.xaml">
+    <Page Update="Vues\AjoutCarteCredit.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vues\CreationClient.xaml">

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fichiers\Personne.txt" />
     <None Remove="imageMen - Copie.jpg" />
     <None Remove="imageMen.png" />
     <None Remove="images.png" />
@@ -14,6 +15,12 @@
     <None Remove="Login.png" />
     <None Remove="movieImage.png" />
     <None Remove="spoolWire.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fichiers\Personne.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

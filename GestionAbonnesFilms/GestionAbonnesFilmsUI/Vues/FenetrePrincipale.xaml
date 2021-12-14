@@ -33,7 +33,7 @@
                         <ColumnDefinition Width="781*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Label Content="Liste  des Clients" HorizontalAlignment="Left" Margin="154,16,0,0" VerticalAlignment="Top" Grid.Column="3"/>
+                    <Label Content="Liste  des Clients" HorizontalAlignment="Left" Margin="302,15,0,0" VerticalAlignment="Top" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                     <DataGrid x:Name="DatagridListeClient"  Width="700" Margin="13,52,82,75" Grid.ColumnSpan="2" Grid.Column="2"/>
                     <Button x:Name="btnCreer"   Content="Créer" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF43C327" Grid.Column="3" Click="btnCreer_Click"/>
                     <Button x:Name="btnModifier" Content="Modifier" HorizontalAlignment="Left" Margin="300,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF2968E9" Grid.Column="3" Click="btnModif_Click"/>
