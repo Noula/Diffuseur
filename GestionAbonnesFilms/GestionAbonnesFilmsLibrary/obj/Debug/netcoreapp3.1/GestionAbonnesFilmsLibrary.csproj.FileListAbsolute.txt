@@ -7,3 +7,4 @@ C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\Ge
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.csproj.CoreCompileInputs.cache
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.dll
 C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.pdb
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsLibrary\obj\Debug\netcoreapp3.1\GestionAbonnesFilmsLibrary.csproj.AssemblyReference.cache
