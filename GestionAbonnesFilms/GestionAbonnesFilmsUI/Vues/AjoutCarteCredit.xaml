@@ -1,0 +1,19 @@
+﻿<Window x:Class="GestionAbonnesFilmsUI.Vues.AjoutCarteCredit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionAbonnesFilmsUI.Vues"
+        mc:Ignorable="d"
+        Title="AjoutCarteCredit" Height="580" Width="619">
+    <Grid>
+        <Label Content="Ajout d'une nouvelle carte de crédit" HorizontalAlignment="Center" Margin="0,37,0,0" VerticalAlignment="Top" Width="491" Height="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="nomCarte" HorizontalAlignment="Left" Margin="120,163,0,0" Text="Nom inscrit sur la carte" TextWrapping="NoWrap" VerticalAlignment="Top" Width="397" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="couurielCarte" HorizontalAlignment="Left" Margin="120,228,0,0" Text="Courriel du client" TextWrapping="NoWrap" VerticalAlignment="Top" Width="397" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <DatePicker x:Name="dateExpiration" HorizontalAlignment="Left" DisplayDateStart="12-11-2021" DisplayDateEnd="12-11-2030" Margin="120,283,0,0" VerticalAlignment="Top" Height="33" Width="397"/>
+        <TextBox x:Name="codeSecuiteCarte" HorizontalAlignment="Left" Margin="120,350,0,0" Text="saisir les 3 dernier chiffre de votre carte" TextWrapping="NoWrap" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="33" Width="397" MaxLength="3"/>
+        <Button x:Name="validCarte" Content="Valider" HorizontalAlignment="Left" Margin="120,422,0,0" VerticalAlignment="Top" Height="46" Width="151"/>
+        <Button x:Name="annulCarte" Content="Annuler" HorizontalAlignment="Left" Margin="362,422,0,0" VerticalAlignment="Top" Height="46" Width="151"/>
+        <Button x:Name="supprimCarte" Content="Supprimer" HorizontalAlignment="Left" Margin="362,422,0,0" VerticalAlignment="Top" Height="46" Width="151"/>
+    </Grid>
+</Window>

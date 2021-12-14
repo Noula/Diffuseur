@@ -1,0 +1,28 @@
+﻿<Window x:Class="GestionAbonnesFilmsUI.Vues.ModificationClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionAbonnesFilmsUI.Vues"
+        mc:Ignorable="d"
+        Title="ModificationClient" Height="410" Width="639">
+    <Grid>
+        <Label Content="Modicier un client" HorizontalAlignment="Left" Margin="121,27,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="412"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="35,111,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Margin="35,169,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Courriel" HorizontalAlignment="Left" Margin="35,218,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Sexe" HorizontalAlignment="Left" Margin="340,112,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Nom d'utilisateur" HorizontalAlignment="Left" Margin="340,170,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="340,219,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Modifier" Click="btnModifier" HorizontalAlignment="Left" Margin="125,332,0,0" VerticalAlignment="Top" Width="79" Height="38"/>
+        <Button Content="Annuler" Click="btnAnnuler" HorizontalAlignment="Left" Margin="280,332,0,0" VerticalAlignment="Top" Width="79" Height="38"/>
+        <Button Content="Supprimer" Click="btnSupprimer" HorizontalAlignment="Left" Margin="437,333,0,0" VerticalAlignment="Top" Width="79" Height="38"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,113,0,0" Text="nom" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,173,0,0" Text="prenom" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,227,0,0" Text="courriel" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="480,114,0,0" Text="sexe" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="480,174,0,0" Text="code d'utilisateur" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="480,228,0,0" Text="mot de passe" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
