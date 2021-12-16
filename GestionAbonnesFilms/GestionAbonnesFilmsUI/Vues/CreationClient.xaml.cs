@@ -1,4 +1,5 @@
-﻿using GestionAbonnesFilmsLibrary.Models;
+﻿using GestionAbonnesFilmsLibrary.Donnees;
+using GestionAbonnesFilmsLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Mail;
@@ -20,6 +21,21 @@ namespace GestionAbonnesFilmsUI.Vues
     /// </summary>
     public partial class CreationClient : Window
     {
+        private DonneesClient _donneesClient;
+
+        public DonneesClient DonneesClient
+        {
+            get {
+                if (_donneesClient is null)
+                {
+                    _donneesClient = new DonneesClient();
+
+                }
+                return _donneesClient;
+            }
+            set { _donneesClient = value; }
+        }
+
         public CreationClient()
         {
             InitializeComponent();
@@ -49,12 +65,6 @@ namespace GestionAbonnesFilmsUI.Vues
                 //vérifie si le format de l'adresse courriel est bien écrit
                 MailAddress courriel = new MailAddress(txtCourriel.Text);
 
-                client.Nom = txtNom.Text;
-                client.Prenom = txtPrenom.Text;
-                client.Sexe = cbxSexe.SelectedItem.ToString();
-                client.Courriel = txtCourriel.Text;
-                client.DateInscription = DateTime.Now;
-
                 ValiderMotPasse();
                 //vérifie si les champs sont bien remplis
                 if (this.txtNom.Text == "" || this.txtNom.Text == "nom" || this.txtPrenom.Text == "" || this.txtPrenom.Text == "prenom"
@@ -66,12 +76,17 @@ namespace GestionAbonnesFilmsUI.Vues
                 }
                 else if (this.cbxSexe.Text == "Masculin" || this.cbxSexe.Text == "Féminin")
                 {
-                    //client.CreeNomUtilisateur(client.Nom, client.Prenom);
                     if (this.txtMotPasse.Password == this.txtMotPasseConfirm.Password)
                     {
                         if (this.txtCourriel.Text == this.txtCourrielConfirm.Text)
                         {
-                            client.Abonnenment();
+                            client.Nom = txtNom.Text;
+                            client.Prenom = txtPrenom.Text;
+                            client.Sexe = cbxSexe.SelectedItem.ToString();
+                            client.Courriel = txtCourriel.Text;
+                            client.DateInscription = DateTime.Now;
+                            DonneesClient.AjouterNouveauElement(client);
+                            //client.Abonnenment();
                         }
                         else
                         {

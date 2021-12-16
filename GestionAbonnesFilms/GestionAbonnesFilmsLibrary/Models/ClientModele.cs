@@ -7,6 +7,7 @@ namespace GestionAbonnesFilmsLibrary.Models
 {
     public class ClientModele : PersonnesModele
     {
+        public int IdClient { get; set; }
         public DateTime DateInscription { get; set; }
         public string Courriel { get; set; }
         public string MotDePasse { get; set; }

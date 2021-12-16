@@ -32,6 +32,7 @@ namespace GestionAbonnesFilmsUI.Vues
         public FenetrePrincipale()
         {
             InitializeComponent();
+                            
         }
 
         private void btnCreer_Click(object sender, RoutedEventArgs e)
