@@ -16,11 +16,11 @@
         <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="340,219,0,0" VerticalAlignment="Top" Width="110"/>
         <Button Content="Ajouter" HorizontalAlignment="Left" Margin="125,332,0,0" VerticalAlignment="Top" Width="79" Height="38" Click="Click_Creer"/>
         <Button Content="Annuler" HorizontalAlignment="Left" Margin="437,333,0,0" VerticalAlignment="Top" Width="79" Height="38" Click="Click_Annuler"/>
-        <TextBox x:Name="txtNom" HorizontalAlignment="Left" Margin="180,113,0,0" Text="nom" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNom" HorizontalAlignment="Left" Margin="180,113,0,0" Text="nom" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPrenom" HorizontalAlignment="Left" Margin="180,173,0,0" Text="prenom" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCourriel" HorizontalAlignment="Left" Margin="180,227,0,0" Text="courriel" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCodeUtilisateur" HorizontalAlignment="Left" Margin="480,174,0,0" Text="code d'utilisateur" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtMotPasse" HorizontalAlignment="Left" Margin="480,228,0,0" Text="mot de passe" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCourriel" HorizontalAlignment="Left" Margin="180,227,0,0" Text="courriel" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCodeUtilisateur" HorizontalAlignment="Left" Margin="480,174,0,0" Text="code d'utilisateur" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="txtMotPasse" Password="mot de passe" HorizontalAlignment="Left" Margin="480,228,0,0" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <ComboBox x:Name="cbxSexe" HorizontalAlignment="Left" Margin="480,114,0,0" Text="sexe"  VerticalAlignment="Top" Width="120">
             <ComboBoxItem >
                 <TextBlock> Masculin</TextBlock>
@@ -31,8 +31,8 @@
         </ComboBox>
         <Label Content="Courriel" HorizontalAlignment="Left" Margin="42,282,0,0" VerticalAlignment="Top" Width="110"/>
         <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="347,283,0,0" VerticalAlignment="Top" Width="110"/>
-        <TextBox x:Name="txtCourrielConfirm" HorizontalAlignment="Left" Margin="187,291,0,0" Text="courriel" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtMotPasseConfirm" HorizontalAlignment="Left" Margin="487,292,0,0" Text="mot de passe" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCourrielConfirm" HorizontalAlignment="Left" Margin="187,291,0,0" Text="courriel" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="txtMotPasseConfirm" Password="mot de passe" HorizontalAlignment="Left" Margin="487,292,0,0" VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

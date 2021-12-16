@@ -1,0 +1,15 @@
+﻿//Formule Regex pour limiter le nombre de caractère et définit le type lettre que doit contenir le mot de passe
+^(?=.{8,16}$)(?=.*[^a-zA-Z])
+
+//Description de la formule.
+^(?=.{8})(?=.*[^a-zA-Z])
+│└──┬───┘└──────┬──────┘
+│   │           │
+│   │           └ string contains some non-letter character
+				  la chaîne contient un caractère autre qu'une lettre
+│   │
+│   └ string contains at least 8 characters
+	  la chaîne contient au moins 8 caractères 
+│
+└ begining of line/string
+  début de ligne/chaîne

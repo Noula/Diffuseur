@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fichiers\note.txt" />
     <None Remove="Fichiers\Personne.txt" />
     <None Remove="imageMen - Copie.jpg" />
     <None Remove="imageMen.png" />
@@ -18,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Fichiers\note.txt">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fichiers\Personne.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>

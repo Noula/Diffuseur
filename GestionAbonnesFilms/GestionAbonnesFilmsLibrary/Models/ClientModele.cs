@@ -17,7 +17,7 @@ namespace GestionAbonnesFilmsLibrary.Models
 
         public ClientModele(string nom, 
                             string prenom, 
-                            String sexe, 
+                            string sexe, 
                             string statut, 
                             string nomUtilisateur, 
                             string motPasse, 
