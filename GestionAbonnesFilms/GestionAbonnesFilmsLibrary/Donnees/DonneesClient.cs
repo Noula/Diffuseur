@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GestionAbonnesFilmsLibrary.Donnees
 {
-    public class DonneesClient:IGestionClient
+    public class DonneesClient:IGestionDonnees<ClientModele>
     {
         private List<ClientModele> _listeDesClients;
 
@@ -40,9 +40,7 @@ namespace GestionAbonnesFilmsLibrary.Donnees
         /// <param name="client"></param>        
         public void AjouterNouveauElement(ClientModele client)
         {
-
-            _listeDesClients.Add(client);
-          
+            _listeDesClients.Add(client);          
         }
         /// <summary>
         /// Fonction supprimer client
@@ -50,8 +48,7 @@ namespace GestionAbonnesFilmsLibrary.Donnees
         /// <param name="entite"></param>
         public void SupprimerElement(ClientModele entite)
         {
-            _listeDesClients.Remove(entite);
-            
+            _listeDesClients.Remove(entite);            
         }
 
         /// <summary>
@@ -61,7 +58,18 @@ namespace GestionAbonnesFilmsLibrary.Donnees
         {
             var indexClient = _listeDesClients.FindIndex(x => x.IdClient == elementAmettreAjour.IdClient);
             _listeDesClients[indexClient] = elementAmettreAjour;
-
         }
+
+        ///
+        public bool SiNonExistant(ClientModele entite)
+        {
+            bool courrielExistant =false;
+            var courrielExiste= ListeDesClients.Find(x => x.Courriel == entite.Courriel);
+            if ( courrielExiste is null)
+                 courrielExistant = true;
+
+            return courrielExistant;
+        }
+   
     }
 }

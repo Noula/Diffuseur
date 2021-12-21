@@ -6,10 +6,10 @@ namespace GestionAbonnesFilmsLibrary.Models
 {
    public class FilmModele
     {
-            public string Titre { get; set; }
-            public int Duree { get; set; }
-
-            public string Description { get; set; }
+        public int IdFilm { get; set; }
+        public string Titre { get; set; }
+        public int Duree { get; set; }
+        public string Description { get; set; }
 
         
     }

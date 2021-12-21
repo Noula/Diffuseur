@@ -22,6 +22,7 @@ namespace GestionAbonnesFilmsUI.Vues
     public partial class CreationClient : Window
     {
         private DonneesClient _donneesClient;
+        private ClientModele client;
 
         public DonneesClient DonneesClient
         {
@@ -57,15 +58,12 @@ namespace GestionAbonnesFilmsUI.Vues
             try
             {
 
-                //création des objets client et personne
-                // ClientModele client = new ClientModele(txtNom, txtPrenom, txtSexe, "client", txtCodeUtilisateur, txtMotPasse, DateTime.Now, txtCourriel, )
-                // ClientModele client = new Model.Client(textBoxNom.Text, confirmationMotpasse.Text, textBoxCourriel1.Text, "client");
-
-                ClientModele client = new ClientModele();
+                //création des objets client
+                client = new ClientModele();
+                
                 //vérifie si le format de l'adresse courriel est bien écrit
                 MailAddress courriel = new MailAddress(txtCourriel.Text);
 
-                ValiderMotPasse();
                 //vérifie si les champs sont bien remplis
                 if (this.txtNom.Text == "" || this.txtNom.Text == "nom" || this.txtPrenom.Text == "" || this.txtPrenom.Text == "prenom"
                     || this.txtMotPasse.Password == "" || this.txtMotPasseConfirm.Password == "mot de passe"
@@ -76,26 +74,19 @@ namespace GestionAbonnesFilmsUI.Vues
                 }
                 else if (this.cbxSexe.Text == "Masculin" || this.cbxSexe.Text == "Féminin")
                 {
-                    if (this.txtMotPasse.Password == this.txtMotPasseConfirm.Password)
+                    client.Nom = txtNom.Text;
+                    client.Prenom = txtPrenom.Text;
+                    client.Sexe = cbxSexe.SelectedItem.ToString();
+                    client.Courriel = txtCourriel.Text;
+                    client.DateInscription = DateTime.Now;
+
+                    if (ValiderMotPasseEtCourriel() && DonneesClient.SiNonExistant(client))
                     {
-                        if (this.txtCourriel.Text == this.txtCourrielConfirm.Text)
-                        {
-                            client.Nom = txtNom.Text;
-                            client.Prenom = txtPrenom.Text;
-                            client.Sexe = cbxSexe.SelectedItem.ToString();
-                            client.Courriel = txtCourriel.Text;
-                            client.DateInscription = DateTime.Now;
-                            DonneesClient.AjouterNouveauElement(client);
-                            //client.Abonnenment();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Vérifiez les champs courriel");
-                        }
+                        DonneesClient.AjouterNouveauElement(client);
                     }
                     else
                     {
-                        MessageBox.Show("Les mots de passe sont incorrects");
+                        MessageBox.Show("Ce client existe déjà");
                     }
                 }
                 else
@@ -107,31 +98,39 @@ namespace GestionAbonnesFilmsUI.Vues
             {
                 MessageBox.Show("Erreur:\n" + ex.Message);
             }
-            finally
-            {
-                //MessageBox.Show(ClientModele.Message);
-            }
         }
 
-        //Valider le mot de passe
-        public bool ValiderMotPasse()
+        //Vérifie si le mot de passe et le courriel sont bien saisis
+        public bool ValiderMotPasseEtCourriel()
         {
            int longueur = 8;
             bool valide = false;
-            if (txtMotPasse.MaxLength >= longueur && txtMotPasseConfirm.MaxLength >= longueur) 
+            if (txtMotPasse.Password.Length >= longueur && txtMotPasseConfirm.Password.Length >= longueur) 
             {
                 if (this.txtMotPasse.Password == this.txtMotPasseConfirm.Password)
+                {
                     valide = true;
+                }
+                else
+                {
                     MessageBox.Show("les Mots de passe ne sont pas identiques");
+                    valide = false;
+                }
 
                 if (this.txtCourriel.Text == this.txtCourrielConfirm.Text)
+                {
                     valide = true;
-                MessageBox.Show("les courriels ne sont pas identiques");
+                }
+                else
+                {
+                    MessageBox.Show("les courriels ne sont pas identiques");
+                    valide = false;
+                }
             }
             else
             {
                 MessageBox.Show("La longueur du mot de passe doit être de 8 caractères minimum");
-                valide = false;  
+                valide = false;
             }
             return valide;
         }
