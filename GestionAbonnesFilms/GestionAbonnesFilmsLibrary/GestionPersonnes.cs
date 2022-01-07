@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestionAbonnesFilmsLibrary
+namespace GestionAbonnesFilmsUI
 {
     public class GestionPersonnes
     {

@@ -33,10 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestionAbonnesFilmsLibrary\GestionAbonnesFilmsLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="imageMen - Copie.jpg" />
     <Resource Include="imageMen.png" />
     <Resource Include="images.png" />

@@ -3,12 +3,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:VueModel="clr-namespace:GestionAbonnesFilmsUI.VueModeles"
         mc:Ignorable="d"
         Title="FenetrePrincipale" Height="500" Width="900">
-    <Grid>
+    <Window.Resources>
+        <VueModel:FenetrePrincipaleVueModele x:Key="FenetrePrincipale"/>
+    </Window.Resources>
+    <Grid DataContext="{ StaticResource ResourceKey=FenetrePrincipale}">
         <Grid.Background>
             <ImageBrush Stretch="UniformToFill" ImageSource="../spoolWire.png"/>
         </Grid.Background>
+        <Menu>
+            <MenuItem Header="_fichier" Name="fichier">
+                <MenuItem Header="_Quitter" Name="quitter"/>
+                <MenuItem Header="_Déconnexion" Name="deconnexion"/>
+            </MenuItem>
+        </Menu>
         <!--<MenuItem Header="_Fichier" Height="22" Name="Menu" Width="Auto" VerticalAlignment="Top" HorizontalAlignment="Stretch" Background="{x:Null}">
             <MenuItem.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -34,27 +44,26 @@
                     </Grid.ColumnDefinitions>
 
                     <Label Content="Liste  des Clients" HorizontalAlignment="Left" Margin="302,15,0,0" VerticalAlignment="Top" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                    <DataGrid x:Name="DatagridListeClient"  Width="700" Margin="13,52,82,75" Grid.ColumnSpan="2" Grid.Column="2"/>
+                    <DataGrid x:Name="DatagridListeClient" ItemsSource="{Binding Path=ClientsModele.ListeClientModele}" Width="700" Margin="13,52,82,75" Grid.ColumnSpan="2" Grid.Column="2"/>
                     <Button x:Name="btnCreer"   Content="Créer" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF43C327" Grid.Column="3" Click="btnCreer_Click"/>
                     <Button x:Name="btnModifier" Content="Modifier" HorizontalAlignment="Left" Margin="300,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF2968E9" Grid.Column="3" Click="btnModif_Click"/>
                     <Button x:Name="btnSupprimer" Content="Supprimer" HorizontalAlignment="Left" Margin="580,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FFDB3B0E" Grid.Column="3" Click="btnSupprim_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Film">
-                <Grid Background="#FFE5E5E5">
+                <Grid Background="#FFE5E5E5" >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="51*"/>
                         <ColumnDefinition Width="14*"/>
                         <ColumnDefinition Width="781*"/>
                     </Grid.ColumnDefinitions>
                     <Label Content="Liste  des films" HorizontalAlignment="Left" Margin="154,16,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-                    <DataGrid Width="700" Margin="13,52,82,75" Grid.ColumnSpan="2" Grid.Column="1"/>
-                    <Button x:Name="btnAjoutFilm"   Content="Ajouter" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF43C327" Grid.Column="3"/>
+                    <DataGrid x:Name="DatagridListeFilm" ItemsSource="{Binding Path=FilmsModele.ListeFilmModele}" Width="700" Margin="13,52,82,75" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <Button x:Name="btnAjoutFilm"   Content="Ajouter" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF43C327" Grid.Column="3" Click="btnAjoutFilm_Click"/>
                     <Button x:Name="btnModifierFilm" Content="Modifier" HorizontalAlignment="Left" Margin="300,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FF2968E9" Grid.Column="3"/>
                     <Button x:Name="btnSupprimerFilm" Content="Supprimer" HorizontalAlignment="Left" Margin="580,280,0,0" VerticalAlignment="Top" Height="40" Width="120" RenderTransformOrigin="0.522,-0.13" Background="#FFDB3B0E" Grid.Column="3"/>
                 </Grid>
             </TabItem>
         </TabControl>
-
     </Grid>
 </Window>

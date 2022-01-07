@@ -1,11 +1,12 @@
-﻿using GestionAbonnesFilmsLibrary.Models;
+﻿
+using GestionAbonnesFilmsUI.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestionAbonnesFilmsLibrary.Donnees
+namespace GestionAbonnesFilmsUI.Services
 {
-    public class DonneesCarteCredit:IGestionDonnees <CarteDeCreditModele>
+    public class DonneesCarteCredit : IGestionDonnees<CarteDeCreditModele>
     {
         private List<CarteDeCreditModele> _listeDeCarte;
         public List<CarteDeCreditModele> ListeDeCarte

@@ -12,7 +12,13 @@
     <Compile Update="Vues\AjoutCarteCredit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Vues\AjoutFilm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Vues\CreationClient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vues\FenetreDeBase.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vues\FenetrePrincipale.xaml.cs">
@@ -26,13 +32,19 @@
     <Page Update="BoutonModerneTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Vues\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vues\AjoutCarteCredit.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Vues\AjoutFilm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Vues\CreationClient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vues\FenetreDeBase.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vues\FenetrePrincipale.xaml">
