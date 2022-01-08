@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\Zip_Marc\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\obj\Debug\netcoreapp3.1\
 GestionAbonnesFilmsUI
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\App.xaml
-8-1116020055
+C:\Users\kouod\OneDrive\Documents\Visual Studio 2019\projet\Zip_Marc\GestionAbonnement\GestionAbonnesFilms\GestionAbonnesFilmsUI\App.xaml
+8688890378
 
-32-1837327296
+33737270634
 218-1731397431
-BoutonModerneTheme.xaml;Vues\AjoutCarteCredit.xaml;Vues\AjoutFilm.xaml;Vues\CreationClient.xaml;Vues\FenetreDeBase.xaml;Vues\FenetrePrincipale.xaml;Vues\MainWindow.xaml;Vues\ModificationClient.xaml;
+BoutonModerneTheme.xaml;Vues\AjoutCarteCredit.xaml;Vues\AjoutFilm.xaml;Vues\CreationClientVue.xaml;Vues\FenetreDeBase.xaml;Vues\FenetrePrincipale.xaml;Vues\MainWindow.xaml;Vues\ModificationClient.xaml;
 
-False
+True
 

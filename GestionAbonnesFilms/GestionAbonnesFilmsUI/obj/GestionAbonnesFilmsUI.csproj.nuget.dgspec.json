@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj": {}
+    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj": {
+    "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
+        "projectUniqueName": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
         "projectName": "GestionAbonnesFilmsUI",
-        "projectPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
+        "projectPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
         "packagesPath": "C:\\Users\\kouod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\obj\\",
+        "outputPath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

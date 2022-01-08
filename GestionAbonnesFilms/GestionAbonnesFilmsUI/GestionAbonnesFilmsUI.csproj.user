@@ -15,7 +15,7 @@
     <Compile Update="Vues\AjoutFilm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Vues\CreationClient.xaml.cs">
+    <Compile Update="Vues\CreationClientVue.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vues\FenetreDeBase.xaml.cs">
@@ -41,7 +41,7 @@
     <Page Update="Vues\AjoutFilm.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Vues\CreationClient.xaml">
+    <Page Update="Vues\CreationClientVue.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vues\FenetreDeBase.xaml">

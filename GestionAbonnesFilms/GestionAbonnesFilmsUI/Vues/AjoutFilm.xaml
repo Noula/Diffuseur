@@ -1,0 +1,19 @@
+﻿<Window x:Class="GestionAbonnesFilmsUI.Vues.AjoutFilm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionAbonnesFilmsUI.Vues"
+        mc:Ignorable="d"
+        Title="Ajout d'un film" Height="580" Width="619">
+    <Grid>
+        <Label Content="Ajouter un nouveau film" HorizontalAlignment="Center" Margin="0,37,0,0" VerticalAlignment="Top" Width="491" Height="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="titreFilm" HorizontalAlignment="Left" Margin="122,126,0,0" Text="Titre du film" TextWrapping="NoWrap" VerticalAlignment="Top" Width="397" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="description" HorizontalAlignment="Left" Margin="117,245,0,0" Text="Description du film" TextWrapping="NoWrap" VerticalAlignment="Top" Width="397" Height="119" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="Acteurs" HorizontalAlignment="Left" Margin="122,378,0,0" Text="Acteur du film" TextWrapping="NoWrap" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="78" Width="397"/>
+        <Button x:Name="ajoutFilm" Content="Valider" HorizontalAlignment="Left" Margin="128,472,0,0" VerticalAlignment="Top" Height="46" Width="151" Click="ajoutFilm_Click"/>
+        <Button x:Name="annulFilm" Content="Annuler" HorizontalAlignment="Left" Margin="360,467,0,0" VerticalAlignment="Top" Height="46" Width="151"/>
+        <Button x:Name="supprimFilm" Content="Supprimer" HorizontalAlignment="Left" Margin="360,467,0,0" VerticalAlignment="Top" Height="46" Width="151"/>
+        <TextBox x:Name="dureeFilm" HorizontalAlignment="Left" Margin="122,191,0,0" Text="Durée du film (min)" TextWrapping="NoWrap" VerticalAlignment="Top" Width="397" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MaxLength="3"/>
+    </Grid>
+</Window>

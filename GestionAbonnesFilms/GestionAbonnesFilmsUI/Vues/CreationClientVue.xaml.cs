@@ -20,11 +20,11 @@ namespace GestionAbonnesFilmsUI.Vues
     /// <summary>
     /// Logique d'interaction pour CreationClient.xaml
     /// </summary>
-    public partial class CreationClient : Window
+    public partial class CreationClientVue : Window
     {
         
         private ClientModele client;
-        public CreationClient()
+        public CreationClientVue()
         {
             InitializeComponent();
         }

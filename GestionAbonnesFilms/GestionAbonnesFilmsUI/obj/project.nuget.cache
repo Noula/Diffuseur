@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rv7DRZSLjD1+kUzXlrhToGImjvH3gmHyb8KYdbIy50eiEaLe5m0mer79NXfBWkKVUXFBzs0YnPqNtxD8Q2cBsw==",
+  "dgSpecHash": "8/hdI4wv6tFEPWuRVFNONkaD06Y21kuPoyBDgHnUSbXLseOYpq2Hv4ljZEvxNQkzRX9AGWhnqpFuC2jTJbnKEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
+  "projectFilePath": "C:\\Users\\kouod\\OneDrive\\Documents\\Visual Studio 2019\\projet\\Zip_Marc\\GestionAbonnement\\GestionAbonnesFilms\\GestionAbonnesFilmsUI\\GestionAbonnesFilmsUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kouod\\.nuget\\packages\\caliburn.micro\\4.0.173\\caliburn.micro.4.0.173.nupkg.sha512",
     "C:\\Users\\kouod\\.nuget\\packages\\caliburn.micro.core\\4.0.173\\caliburn.micro.core.4.0.173.nupkg.sha512",
